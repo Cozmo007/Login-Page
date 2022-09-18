@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Formulario Simples</title>
+</head>
+<body>
+<div class="box1">
+<form method="POST">
+	<center>
+	<label for="email">Email: </label><input class="email" type="email" name="email" id="email" placeholder="exemplo@gmail.com"/><br><br>
+	<label for="senha">Senha: </label><input class="pass" type="password" name="senha" id="senha" placeholder="*******"/><br><br>
+	<input class="loginb" type="submit" name="enviar" value="Login"/>
+	</center>
+</form>
+</div>
+<style type="text/css">
+body {
+	background-color: #E6E8E8;
+}
+.box1 {
+	display: flex;
+	justify-content: center;
+	background-color: white;
+	padding: 80px;
+	border-radius: 10px;
+	position: relative;
+	top: 130px;
+}
+.loginb {
+	-webkit-appearance: none;
+	background-color: #027EC6;
+	border: none;
+	padding: 15px;
+	color: white;
+	font-size: 17px;
+	font-family: monospace;
+	border-radius: 5px;
+}
+label {
+	font-family: monospace;
+	font-size: 17px;
+}
+.pass {
+	padding: 7px;
+	border: none;
+	background-color: #E1E9ED;
+	color: black;
+	border-radius: 2px;
+}
+.email {
+	padding: 7px;
+	border: none;
+	background-color: #E1E9ED;
+	color: black;
+	border-radius: 2px;
+}
+</style>
+</body>
+</html>
